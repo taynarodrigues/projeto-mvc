@@ -1,64 +1,50 @@
-<?php
- class Pessoa{
-	private $nome;
-	private $cpf;
-	private $data_nascimento;
-	private $sexo;
-	private $altura;
-	private $peso;
-	private $cor_da_pele;
- }
- //Método set 
-	function setNome($nome){
-		this nome -> $nome;
-	}
-	
-//Método get
-		function getNome($Nome){
-			this nome -> $nome;
-		}
-//CPF
-		function setCpf($cpf){
-			this cpf -> $cpf;
-	}
-		function getCpf($Cpf){
-			this cpf -> $cpf;
-		}
-//DATA DE NASCIMENTO
-		function setData_Nascimento($data_nascimento){
-			this data_nascimento -> $data_nascimento;
-		}
-		function getData_Nascimento($data_nascimento){
-			this data_nascimento -> $data_nascimento;
-		}
-//SEXO
-		function setSexo($sexo){
-			this sexo -> $sexo;
-		}
-		function getSexo($sexo){
-			this sexo -> $sexo;
-		}
-//ALTURA
-		function setAltura($altura){
-			this altura -> $altura;
-		}
-		function getAltura($altura){
-			this altura -> $altura;
-		}
-//PESO
-		function setPeso($peso){
-			this peso -> $peso;
-		}
-		function getPeso($peso){
-			this peso -> $peso;
-		}
-//COR DA PELE
-	
-		function setCor_da_pelee($cor_da_pele){
-			this cor_da_pele -> $cor_da_pele;
-		}
-		function getCor_da_pele($cor_da_pele){
-			this cor_da_pele -> $cor_da_pele;
-		}
-		
-?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pessoa</title>
+</head>
+<body>
+
+<h4 class="text">Pessoa</h4>
+<hr>
+<form action="url" method="POST">
+  
+    <div>
+      <label for="nome">Nome: </label>
+      <input type="text" formControlName="nome">
+    </div>
+
+    <div>
+      <label for="cpf">Cpf: </label>
+      <input type="text" formControlName="cpf">
+    </div>
+
+    <div>
+      <label for="data_nascimento">Data Nascimento: </label>
+      <input type="text" formControlName="data_nascimento">
+    </div>
+
+    <div>
+      <label for="sexo">Sexo: </label>
+      <input type="text" formControlName="sexo">
+    </div>
+
+    <div>
+      <label for="peso">Peso: </label>
+      <input type="text" formControlName="peso">
+    </div>
+
+    <div>
+      <label for="cor_da_pele">Cor da Pele: </label>
+      <input type="text" formControlName="cor_da_pele">
+    </div>
+<hr>
+    <input type="submit" value="salvar">
+    
+  </form>
+</body>
+</html>
+
