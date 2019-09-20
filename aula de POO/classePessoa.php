@@ -10,7 +10,7 @@ class Pessoa{
 	private $peso;
 	private $cor_da_pele;
 
-	/* O método Get (pegar)------ O método Set (mostrar, colocar)
+	/* O método Get (pegar/mostar)------ O método Set (colocar)
 	A palavra reservada $this é usada para quando se refere a classe, de dentro dela.
 	 Os métodos gets sempre retornam algo e o métodos sets sempre manipulam o atributo 
 	 e insere valor dentro deles, por isso,
