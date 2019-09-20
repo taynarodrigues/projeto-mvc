@@ -1,0 +1,44 @@
+------Pessoa--------------------------
+-nome:int
+-cpf:int
+-data_nascimento:int
+-sexo:int
+-altura:int
+-cor_da_pele:int
+-------------------------------------
++getNome() int
++setNome(nome int): void
++getCpf(): int
++setCpf(cpf int): void
++getData_nascimento(): int
++setData_nascimento(data_nascimento int): void
++getSexo(): int
++setSexo(sexo int) : void
++getAltura():int
++setAltura(altura int): void
++getPeso(): int
++serPeso(peso int): void
++getCor_da_pele(): int
++setCor_da_pele(cor_da_pele int): void
+
+
+------------------------DICA(s)---------------------------------
+RODAR O SERVIDOR EM PHP: php -S localhost:5000 
+E no  chrome: http://localhost:5000/classePessoa.php
+
+PHP getters and setters for Visual Studio Code automaticamente
+// install PHP Getters & Setters Extension: de 'phproberto'
+
+Selecione o atributo com o dedo direito e insert Getters e em seguida insert Setters
+
+/* O método Get (pegar)------ O método Set (mostrar, colocar)
+	A palavra reservada $this é usada para quando se refere a classe, de dentro dela.
+	 Os métodos gets sempre retornam algo e o métodos sets sempre manipulam o atributo 
+	 e insere valor dentro deles, por isso,
+	 tais métodos recebem parâmetros que serão alocados aos atributos.*/
+
+
+
+Extension: SQL Server (mssql)
+
+
