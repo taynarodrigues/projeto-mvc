@@ -15,7 +15,7 @@
                 <h2>CRUD em PHP <span class="badge badge-secondary">Agenda Simples</span></h2>
             </div>
           </div>
-            <!-- </br> -->
+            </br>
             <div class="row">
                 <p>
                     <a href="create.php" class="btn btn-success">Adicionar</a>
