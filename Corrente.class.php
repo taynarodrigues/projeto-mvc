@@ -9,7 +9,7 @@ class Corrente extends Contas{
     }
     function sacar($valor){
         if(valor<= $this ->saldo){
-            this->saldo -= $valor;
+            $this->saldo -= $valor;
         }
     }
 }
