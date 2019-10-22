@@ -4,42 +4,63 @@ class Aluno{
     private $codAluno;
     private $nome;
     private $email;
-    private $telefone
+    private $telefone;
 
-	public private get$CodAluno() {
-		return this.$codAluno;
-	}
+   public function getCodAluno()
+   {
+       return $this->codAluno;
+   }
 
-	public void set$CodAluno(private $codAluno) {
-		this.$codAluno = $codAluno;
-	}
+  
+   public function setCodAluno($codAluno)
+   {
+       $this->codAluno = $codAluno;
+       return $this;
+   }
 
-	public private get$Nome() {
-		return this.$nome;
-	}
 
-	public void set$Nome(private $nome) {
-		this.$nome = $nome;
-	}
-
-	public private get$Email() {
-		return this.$email;
-	}
-
-	public void set$Email(private $email) {
-		this.$email = $email;
-	}
-
-	public private get$Telefone() {
-		return this.$telefone;
-	}
-
-	public void set$Telefone(private $telefone) {
-		this.$telefone = $telefone;
-	}
-
-		
+  
+    public function getNome()
+    {
+        return $this->nome;
     }
+
+  
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+        return $this;
+    }
+
+
+  
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    public function setEmail($email)
+    {
+        $this->email = $email;
+        return $this;
+    }
+
+
+  
+    public function getTelefone()
+    {
+        return $this->telefone;
+    }
+
+   
+    public function setTelefone($telefone)
+    {
+        $this->telefone = $telefone;
+        return $this;
+    }
+
+
+}
 
 
 ?>
