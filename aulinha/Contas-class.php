@@ -9,54 +9,92 @@
         var $tipoConta;
         var $saldo;
 
+    
+      public function getNumAge()
+      {
+          return $this->numAge;
+      }
 
-	public var get$NumAge() {
-		return this.$numAge;
-	}
+    
+      public function setNumAge($numAge)
+      {
+          $this->numAge = $numAge;
+          return $this;
+      }
 
-	public void set$NumAge(var $numAge) {
-		this.$numAge = $numAge;
-	}
 
-	public var get$NumConta() {
-		return this.$numConta;
-	}
+       
+        public function getNumConta()
+        {
+            return $this->numConta;
+        }
 
-	public void set$NumConta(var $numConta) {
-		this.$numConta = $numConta;
-	}
+       
+        public function setNumConta($numConta)
+        {
+            $this->numConta = $numConta;
+            return $this;
+        }
 
-	public var get$Nome() {
-		return this.$nome;
-	}
 
-	public void set$Nome(var $nome) {
-		this.$nome = $nome;
-	}
+      
+        public function getNome()
+        {
+            return $this->nome;
+        }
 
-	public var get$Cpf() {
-		return this.$cpf;
-	}
+       
+        public function setNome($nome)
+        {
+            $this->nome = $nome;
+            return $this;
+        }
 
-	public void set$Cpf(var $cpf) {
-		this.$cpf = $cpf;
-	}
 
-	public var get$TipoConta() {
-		return this.$tipoConta;
-	}
+       
+        public function getCpf()
+        {
+            return $this->cpf;
+        }
 
-	public void set$TipoConta(var $tipoConta) {
-		this.$tipoConta = $tipoConta;
-	}
+     
+        public function setCpf($cpf)
+        {
+            $this->cpf = $cpf;
+            return $this;
+        }
 
-	public var get$Saldo() {
-		return this.$saldo;
-	}
 
-	public void set$Saldo(var $saldo) {
-		this.$saldo = $saldo;
-	}
+       
+        public function getTipoConta()
+        {
+            return $this->tipoConta;
+        }
+
+      
+        public function setTipoConta($tipoConta)
+        {
+            $this->tipoConta = $tipoConta;
+            return $this;
+        }
+
+
+       
+        public function getSaldo()
+        {
+            return $this->saldo;
+        }
+
+       
+        public function setSaldo($saldo)
+        {
+            $this->saldo = $saldo;
+            return $this;
+        }
+
+		
+  
+		}
 
         function ExibeDados(){
 
@@ -66,7 +104,7 @@
             print "Saldo Atual: : ".$this->saldo. "<br>";
         }
 
-    }
-
+    
+			
 
 ?>
