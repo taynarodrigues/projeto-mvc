@@ -31,4 +31,5 @@ echo "T&acute;tulo do Livro:".$livro->descLivro."<br>";
 echo "ISBN do Livro: ".$livro->ISBN."<br>";
 echo "Nome da Editora: ".$livro->editora->razaoSocial."<br>";
 
+
 ?>
